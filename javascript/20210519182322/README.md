@@ -24,7 +24,10 @@ var name = "Juan";
   var name = "Manuel";
 }
 console.log(name); // "Manuel"
+```
 
+
+```js
 let user = "Juan";
 {
   let user = "Manuel";
