@@ -45,3 +45,7 @@ directory of that php server with your `index.php` file inside. Open
 I checked out [Code Boxx's
 video](https://www.youtube.com/watch?v=CC8HIT8P-kI) to install and
 setup.
+
+For server command and more checked out [php
+documentation](https://www.php.net/manual/en/features.commandline.webserver.php)
+website.
