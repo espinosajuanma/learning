@@ -21,9 +21,9 @@ Example of how I setup my script to generate search URL.
 ```sh
 #!/bin/bash
 test -z "$1" && echo "Please insert a path to search" && exit 1
-lang="$1"
-query=$(sed 's/ /+/g' <<< "${*:2}")
-link="https://github.com/espinosajuanma/learning/search?q=path:/$lang+$query"
+lang=$1
+query=${*:2}
+link="https://github.com/espinosajuanma/learning/search?q=path:/$lang+${query// /+}"
 echo "$link"
 ```
 
@@ -32,4 +32,4 @@ echo "$link"
 Using
 [Zettelkasten](https://github.com/rwxrob/zet/tree/main/20210502004642)
 method in GitHub and `isosec` as unique identifier is inspired by
-[rwxrob](https://github.com/rwxrob). 
+[rwxrob](https://github.com/rwxrob).
