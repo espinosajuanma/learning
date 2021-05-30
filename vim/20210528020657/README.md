@@ -1,4 +1,4 @@
-# Use [dd] and [p] to move lines
+# Use `dd` and `p` to move lines
 
 May be other ways but for now this works perfect.
 
