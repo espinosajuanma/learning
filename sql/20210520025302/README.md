@@ -1,4 +1,4 @@
-# [SQL] CONCAT() Function
+# `CONCAT()` Function on MySQL
 
 CONCAT() function allows you to concatenate one or more strings.
 
