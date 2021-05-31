@@ -1,4 +1,4 @@
-# [bash] type command
+# `type` command
 
 ```
 $ type type
