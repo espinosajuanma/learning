@@ -13,12 +13,16 @@ the file the actual source code of *scriptname* in this case.
 I made a snippet to make it work with POSIX shell using `command -v`
 instead of `which`. Now if I want to embed a snippet code I can call
 the next script. I printed the next block of code using it itself with
-`!!code code`
+`!!code code`. Just added 'sh' after backticks.
 
-```
+```sh
 #!/bin/sh
 
 echo "\`\`\`"
 cat "$(command -v "$1")"
 echo "\`\`\`"
 ```
+
+[code](https://github.com/espinosajuanma/dot/blob/main/scripts/code)
+
+[Why command -v](https://github.com/rwxrob/zet/tree/main/20210531032354)
