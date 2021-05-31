@@ -15,4 +15,4 @@ $ badcommand; echo $?
 ```
 
 In a general rule I will do `&& exit 1` when it was bad command. And `&&
-exit 0` when it was a good one.
+exit 0` when it was a good one or just `&& exit`
