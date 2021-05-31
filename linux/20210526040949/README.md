@@ -1,4 +1,4 @@
-# Don't use `read -p` 
+# `read -p` is not POSIX, use `echo " \c"` instead
 
 - `-p` flag with `read` isn't POSIX
   - use `echo` instead to prompt a message
