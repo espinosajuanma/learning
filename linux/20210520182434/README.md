@@ -1,4 +1,4 @@
-# [bash] differences `which` and `type`
+# Differences `which` and `type`
 
 Use `which` to find an executable in `$PATH`. It lives in
 `/usr/bin/which`
