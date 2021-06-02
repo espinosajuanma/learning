@@ -1,4 +1,4 @@
-# [Vim] Movement
+# Move in vim with `hjkl` and `w`, `e`, and `b` 
 
 Move inside a file with vim is about muscle memory with some keys.
 
