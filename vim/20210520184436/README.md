@@ -1,4 +1,4 @@
-# [Vim] Delete key
+# Deleting in vim with `d` and others
 
 If you want to delete a word you just type `d``w`.
 
