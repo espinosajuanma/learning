@@ -1,4 +1,4 @@
-# Use `nl` to count lines
+# Use `nl` to show line numbers
 
 ```
 DESCRIPTION
