@@ -1,4 +1,4 @@
-# `tmux` - Use and `{Space}` to change layout
+# `tmux` - Use `Ctrl+B` and `{Space}` to change layout
 
 
 - Use `Ctrl+B` and `{Space}` to swap layouts
