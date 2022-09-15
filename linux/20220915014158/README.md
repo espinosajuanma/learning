@@ -66,4 +66,36 @@ or `n` to print the numbered line and text.
 To append a line we used `a` command, but if we want to input text
 before the line we are currently in we can use the `i` command.
 
+## Changing lines
 
+We can use the command `c` for change a line. For example `1c` will make
+us to change the first line for a new one.
+
+## Deleting lines
+
+To remove lines we use the command `d`. For example to delete line
+number two we say `2d`
+
+## Undo command
+
+We only have one history back of changes tu undo our changes. For this
+use the command `u`.
+
+## Copy, Pasting and Moving lines
+
+To copy a line we use the command `t`. And we need to tell the target
+position of that line. For example: `3t0` will copy the line 3 and paste
+it in the position 0.
+
+In a similar way the move (m) command works but it is more like cutting
+and pasting. Using `1m2` we can move the line one to the second
+position.
+
+## Searching through lines
+
+As vim to search a word or something we can use the slash command `/`.
+
+But this will prompt us the first occurrence of the query. We will have
+to repeat the command for the next occurrence and so on.
+
+Searching `/World`. Or even a using regular expressions.
