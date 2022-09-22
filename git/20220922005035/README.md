@@ -15,6 +15,7 @@ echo 'Hello World' > file1.txt
 git add file1.txt
 git commit -m 'First commit'
 echo 'Hello World 2' > file2.txt
+git add file2.txt
 git commit --amend
 git status
 git log
