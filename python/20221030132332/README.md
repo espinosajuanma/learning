@@ -3,7 +3,7 @@
 To check types, we can use the `type()` function.
 
 ```python
-myVar = 'Hello World!'
-if type(myVar) == str:
-  print('myVar is a string')
+my_var = 'Hello World!'
+if type(my_var) == str:
+  print('my_var is a string')
 ```
