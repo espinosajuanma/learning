@@ -50,7 +50,7 @@ for (let index in arr) {
 
 ```js
 arr.forEach((v, i) => {
-  let nextObject = arr[Number(index) + 1];
+  let nextObject = arr[i + 1];
   console.log(nextObject);
 });
 ```
